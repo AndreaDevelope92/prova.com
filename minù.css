@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* regola per mandare a capo il testo */
+    word-wrap: break-word;
+
+}
+
+body{
+    background-color: black;
+    /* google font */
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+
+    .header-telefono{
+        padding: 3px;
+        min-height: 8vh;
+    }
+
+    .header-h1-telefono{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .p-telefono {
+        margin-bottom: 5px;
+        font-size: 5px;
+    }
+
+    .numero-telefono{
+        font-size: 8px;
+        color: red;
+    }
+
+    .nav-telefono{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .h2-telefono{
+        font-size: 15px;
+    }
+
+    .footer-telefono{
+        min-height: 80px;
+    }
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 95vw;
+    min-height: 80vh;
+    background-image: url(/immagini/noemiImg/sfondo-generico8.jpg);
+
+}
+
+header{
+    min-height: 15vh;
+
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 5vw;
+    color: goldenrod;
+    text-align: center;
+}
+
+header > p {
+    margin-bottom: 2vh;
+    font-size: 13px;
+}
+
+p > span{
+    padding: 3px;
+    font-size: 20px;
+    color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    min-height: 5vh;
+
+}
+
+a{
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* google font */
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* fine font */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    background-color: silver;
+    color: goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+button > img{
+    width: 16px;
+    height: 14px;
+}
+
+
+main{
+    padding: 5px;
+    margin-top: 2vh;
+    min-height: 50vh;
+
+}
+
+h2{
+    color: goldenrod;
+    font-size: 25px;
+    margin: 1vh;
+    text-align: center;
+}
+
+.main-container{
+    margin: 1vh auto;
+}
+
+footer{
+    margin-top: 5vh;
+    padding: 5px;
+    min-height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 6px;
+}
